@@ -70,7 +70,7 @@ fun ResultScreen(result: String, navCon: NavHostController) {
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(x = (-3).dp,
-                    y = 1.dp)
+                    y = (-80).dp)
                 .requiredWidth(width = 431.dp)
                 .requiredHeight(height = 551.dp)
                 .clip(shape = RoundedCornerShape(bottomStart = 70.dp, bottomEnd = 70.dp))
@@ -81,7 +81,7 @@ fun ResultScreen(result: String, navCon: NavHostController) {
                 .offset(x = 111.dp,
                     y = 151.dp)
                 .requiredWidth(width = 203.dp)
-                .requiredHeight(height = 162.dp)
+                .requiredHeight(height = 120.dp)
                 .clip(shape = RoundedCornerShape(30.dp))
                 .background(color = Color.White)
                 .border(border = BorderStroke(2.dp, Color(0xff656858)),

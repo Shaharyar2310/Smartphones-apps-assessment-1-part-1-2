@@ -84,7 +84,7 @@ fun Calculator(navCon: NavHostController) {
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(
-                    x = (-3).dp,
+                    x = (-15).dp,
                     y = 1.dp
                 )
                 .requiredWidth(width = 431.dp)
@@ -135,7 +135,7 @@ fun Calculator(navCon: NavHostController) {
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(
-                    x = 228.dp,
+                    x = 200.dp,
                     y = 324.dp
                 )
                 .requiredWidth(width = 170.dp)
@@ -157,7 +157,7 @@ fun Calculator(navCon: NavHostController) {
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(
-                    x = 283.dp,
+                    x = 240.dp,
                     y = 349.dp
                 ))
         Text(
@@ -171,14 +171,14 @@ fun Calculator(navCon: NavHostController) {
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(
-                    x = 272.dp,
+                    x = 240.dp,
                     y = 380.dp
                 ))
         Box(
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(
-                    x = 252.dp,
+                    x = 225.dp,
                     y = 451.dp
                 )
                 .requiredSize(size = 40.dp)
@@ -209,7 +209,7 @@ fun Calculator(navCon: NavHostController) {
             modifier = Modifier
                 .align(alignment = Alignment.TopStart)
                 .offset(
-                    x = 331.dp,
+                    x = 310.dp,
                     y = 451.dp
                 )
                 .requiredSize(size = 40.dp)
@@ -264,7 +264,7 @@ fun Calculator(navCon: NavHostController) {
                 modifier = Modifier
                     .align(alignment = Alignment.TopStart)
                     .offset(
-                        x = 77.dp,
+                        x = 70.dp,
                         y = 349.dp
                     )
             )
@@ -280,7 +280,7 @@ fun Calculator(navCon: NavHostController) {
                 modifier = Modifier
                     .align(alignment = Alignment.TopStart)
                     .offset(
-                        x = 80.dp,
+                        x = 87.dp,
                         y = 380.dp
                     )
             )
@@ -288,7 +288,7 @@ fun Calculator(navCon: NavHostController) {
                 modifier = Modifier
                     .align(alignment = Alignment.TopStart)
                     .offset(
-                        x = 53.dp,
+                        x = 55.dp,
                         y = 451.dp
                     )
                     .requiredSize(size = 40.dp)
@@ -313,7 +313,7 @@ fun Calculator(navCon: NavHostController) {
                 modifier = Modifier
                     .align(alignment = Alignment.TopStart)
                     .offset(
-                        x = 132.dp,
+                        x = 140.dp,
                         y = 451.dp
                     )
                     .requiredSize(size = 40.dp)
